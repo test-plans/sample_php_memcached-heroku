@@ -13,3 +13,6 @@ before_script:
 
 script:
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/MemcachedExampleTest.php
+
+notifications:
+  email: false
