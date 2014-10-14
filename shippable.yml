@@ -2,11 +2,11 @@
 
 language: php
 
-php 
+php: 
   - 5.4
 
 services:
-  - memcached
+  -memcached
 env:
  - secure: nBp80IpgUPAKnYcyPSgpr42/+IFfmwic6hlnElCAc3oHuill3bQgYz35OSLzYoh/AvOgyacSx9brBLCZm15qkyioDWyHQl2H/9OQJ3BfgKbfhnB0MAUECojTTAwHccsVSzaoQvOTxdoLDWNX1xoaaHv904N94EnVlwRoB8DM4L9+26pJ2naD9wX24ztLLoYlIjxihHGJep9WST/he2kUUbBbigZeOtCQsxzK1X6f96Co0NAHLrt5EWuPqGYOQwwGUHBOUXdDT9bA0idBjewqGO6RDY0tU1Uj65KLtzdEs4TNT6eNmpFe/r/mP+rymaJv0P0Qpu8rohOCnpwiJO7Vtg==
 before_script: 
