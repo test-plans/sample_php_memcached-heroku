@@ -1,4 +1,6 @@
-language: php
+test 
+
+language: cpp
 
 php: 
   - 5.4
