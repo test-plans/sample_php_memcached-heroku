@@ -1,8 +1,8 @@
-test 
+#test 
 
-language: cpp
+language: php
 
-php: 
+php 
   - 5.4
 
 services:
