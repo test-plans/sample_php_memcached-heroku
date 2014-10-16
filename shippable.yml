@@ -3,6 +3,7 @@ language: php
 php: 
   - 5.4
 
+
 services:
   - memcached
 
@@ -10,8 +11,6 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   - echo "extension = memcached.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
-
-
 
 
 script:
