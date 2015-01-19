@@ -13,7 +13,7 @@ before_script:
   - mkdir -p shippable/codecoverage
   - echo "extension = memcached.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
-#build_image: shippable/minv2:beta
+build_image: shippable/minv2:beta
 
 script:
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/MemcachedExampleTest.php
