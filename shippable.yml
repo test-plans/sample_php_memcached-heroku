@@ -5,8 +5,8 @@ php:
   - 5.4
 
 
-#services:
- # - memcached
+services:
+  - memcached
 
 before_script: 
   - mkdir -p shippable/testresults
