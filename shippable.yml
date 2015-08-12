@@ -20,5 +20,5 @@ notifications:
 archive: true
 
 branches:
-  except:
+  only:
     - test
