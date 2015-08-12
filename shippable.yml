@@ -6,6 +6,11 @@ php:
 services:
   - memcached
 
+matrix:
+  include:
+    - php: 5.5
+
+
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
