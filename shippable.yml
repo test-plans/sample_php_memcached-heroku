@@ -5,8 +5,8 @@ php:
   - 5.4
 env:
  global:
-    - APP_NAME=sample-php
-  
+    - APP_NAME=sample-php-memcached
+    
 
 services:
   - memcached
