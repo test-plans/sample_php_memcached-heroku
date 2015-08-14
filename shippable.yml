@@ -4,8 +4,6 @@ php:
 env:
  global:
     - APP_NAME=sample-php-memcached
-    
-
 services:
   - memcached
 
@@ -24,6 +22,5 @@ after_success :
 
 notifications:
   email: false
-  
-  
+
 archive: true
